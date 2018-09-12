@@ -1,0 +1,42 @@
+body{
+  margin-left: 150px;
+  margin-right: 150px;
+  background-image: url('https://i.stack.imgur.com/1Tzky.png');
+  background-size: 100% 100%;
+}
+hr {
+  height: 3px;
+  background-image: linear-gradient(to right,rgba(0,0,0,0),rgba(0,0,0,.75),rgba(0,0,0,0));
+  border:none;
+}
+.box{
+  text-align: center;
+}
+.blocks{
+  text-align: right;
+}
+.intro{
+  text-align: left;
+  font-size: 20px;
+}
+.he{
+  font-size: 25;
+}
+#userCTC{
+  height: 24px;
+  width: 15em;
+  font-size: 16px;
+}
+.dispNone{
+  display: none;
+}
+.labelTxt{
+  font-size: 20px;
+  margin-right: 10px;
+}
+#calc{
+  padding: 10px 20px;
+  background-color: #6e9be5;
+  font-size: 16px;
+  border-radius: 5px;
+}

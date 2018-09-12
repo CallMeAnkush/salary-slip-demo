@@ -1,0 +1,129 @@
+<html>
+<head>
+  <title>Salary Slip</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no">
+  <script type="text/javascript" src="../js/main.js"></script>
+  <link rel="stylesheet" href="../css/sal.css" />
+  <script type="text/javascript" src="../js/functionlearn.js"></script>
+</head>
+
+
+<body>
+
+  <div class="box"><img src="https://techninzaz.files.wordpress.com/2016/09/newlogo1-1.jpg" width="200px"></div>
+
+  <br/>
+
+  <div class="box">#1535/2, Sharanya Towers, 14th Main Road,<br/>1st Stage, Kumaraswamy Layout,<br/>Bengaluru, Karnataka 560078.</div>
+  <div class="box">+91 97397 89657</div>
+  <br/>
+  <div class="box">
+    <strong><span class="labelTxt">ENTER YPUR  CTC</span></strong>
+    <input type="text" maxlength="7" name="ctc" id="userCTC" placeholder="Eg:500000" />
+    <br/><br/>
+    <button id="calc" onclick="getCTC()">Calculate</button>
+  </div>
+
+  <br/>
+
+  <div class="dispNone" id="salaryBlock">
+    <div class="he box"><strong>Salary Slip</strong></div>
+
+
+    <br/><br/><hr/><br/><br/>
+
+
+    <div>
+      <div class="intro"><strong>Employee Name : </strong>  ANKUSH</div>
+      <div class="intro"><strong>Designation : </strong>  Hyrid Application Developer </div>
+      <div class="intro"><strong>Month & Year : </strong>  May 2018</div>
+    </div>
+
+
+    <br/><br/>
+
+
+    <table Width="100%" border="5">
+
+      <thead>
+        <th>Earnings</th>
+        <th>Monthly</th>
+        <th>Yearly</th>
+        <th>Deductions</th>
+        <th>Monthly</th>
+        <th>Yearly</th>
+      </head>
+
+
+      <tbody>
+
+        <tr>
+          <td>Basic</td>
+          <td class="blocks">&#x20b9;<span id="monBasic"></span></td>
+          <td class="blocks">&#x20b9;<span id="yrBasic"></span></td>
+          <td>Provident Funds</td>
+          <td class="blocks">&#x20b9;<span id="monPROV"></span></td>
+          <td class="blocks">&#x20b9;<span id="yrPROV"></span></td>
+        </tr>
+
+        <tr>
+          <td>HRA</td>
+          <td class="blocks">&#x20b9;<span id ="monHRA"></span></td>
+          <td class="blocks">&#x20b9;<span id ="yrHRA"></span></td>
+          <td>EPF</td>
+          <td class="blocks">&#x20b9;<span id="moEpf"></span></td>
+          <td class="blocks">&#x20b9;<span id="yrEpf"></span></td>
+        </tr>
+
+        <tr>
+          <td>Gratuity</td>
+          <td class="blocks">&#x20b9; <span id="monGRATUITY"></span></td>
+          <td class="blocks">&#x20b9; <span id="yrGRATUITY"></span></td>
+          <td>Corporate Tax</td>
+          <td class="blocks">&#x20b9; <span id="monCorpTAX"></span></td>
+          <td class="blocks">&#x20b9; <span id="yrCorpTAX"></span></td>
+        </tr>
+
+        <tr>
+          <td>SPA</td>
+          <td class="blocks">&#x20b9; <span id="monSPA"></span></td>
+          <td class="blocks">&#x20b9; <span id="yrSPA"></span></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+
+
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td> Total Deductions</td>
+          <td class="blocks">&#x20b9;<span id="moDEDUCTION"></span></td>
+          <td class="blocks">&#x20b9;<span id="yrDEDUCTION"></span></td>
+
+        </tr>
+
+        <tr>
+          <td class="blocks"><strong>TOTAL EARNINGS</strong></td>
+          <td class="blocks"><strong>&#x20b9; <span id="monEarn"></span></strong></td>
+          <td class="blocks"><strong>&#x20b9; <span id="yrEarn"></span></strong></td>
+          <td class="blocks"><strong>NET SALARY</strong></td>
+          <td class="blocks">&#x20b9;<span id="moNET"></span></td>
+          <td class="blocks">&#x20b9;<span id="yrNET"></span></td>
+
+        </tr>
+      </tbody>
+    </table>
+
+    <br/><br/>
+
+    <div>Date : 30-05-2018</div>
+    <p>Signature of a Employee : _________________</p>
+
+    <br/><br/><hr/><br/>
+</div>
+
+
+  </body>
+  </html>
